@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 align="center">MODULE 2</h2>
+    <h3 align="center">SE: HTML and CSS</h3>
+    <h4>Q1: Define the terms: Website, Webpage, Web browser, Web server,
+        HTML,CSS</h4>
+    <p>
+        ▻<u><b>Website</b></u>: <i>Website is collection of Web pages</i>
+        <p>▻<u><b>Webpage</b></u>: <i>Webpage is collection of content including images and text </i></p>
+        <p>▻<u><b>Web browser</b></u>: <i>Web browser is used to run web application with help of internet </i></p>
+        <p>▻<u><b>Web server</b></u>: <i>Web server is a storage where data is saved online</i></p>
+        <p>▻<u><b>HTML</b></u>: <i>HTML stands for Hyper Text MarkUp Language.It is programming language used to create web page consisting of text, image, link and table </i></p>
+        <p>▻<u><b>CSS</b></u>: <i>CSS stands for Cascading Style Sheet. It is used to design the web page</i></p>
+    </p>
+    <h4>Q2: Create a webpage to show “This is my first HTML page”</h4>
+    <p><a href = "Intro.html">This is my first HTML Web page</a></p>
+    <h4>Q3: Display top 10 IT companies list in html webpage</h4>
+    <p>
+        <label for=""><b><font color="#191970">Top 10 IT Companies</font></b></label>
+        <input list="Top 10 IT Companies" value="">
+        <datalist id="Top 10 IT Companies">
+            <option value="1">Microsoft</option>
+            <option value="2">IBM</option>
+            <option value="3">Accenture</option>
+            <option value="4">Oracle</option>
+            <option value="5">SAP</option>
+            <option value="6">TCS</option>
+            <option value="7">DXC</option>
+            <option value="8">Delloite</option>
+            <option value="9">Capgemini</option>
+            <option value="10">Cognizant</option>
+        </datalist></p>
+    <h4>Q4: Create a dropdown list</h4>
+    <p>
+                <label for=""><b><font color="#191970">Class</font></b></label>
+                <select name="Class" id="" required>
+                    <option value=""></option>
+                    <option value="">Class 1</option>
+                    <option value="">Class 2</option>
+                    <option value="">Class 3</option>
+                    <option value="">Class 4</option>
+                </select>
+    </p>
+    <h4>Q5: Create a Table Of college Management system using row span & colspan.</h4>
+    <p>
+        <h2 align="center">College Management System</h2>
+    <table align="center" cellpadding="10" border="1" cellspacing="0">
+        <tr>
+            <th colspan="5">
+                <h3>Details Form using rowspan and colspan</h3>
+            </th>
+        </tr>
+        <tr>
+            <td rowspan="10">
+
+            </td>
+            <td>
+                <label for=""><b>Surname</b></label>
+            </td>
+            <td colspan="2">
+                <input type="text" placeholder="Enter your Surname" required>
+            </td>
+            <td rowspan="10">
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""><b>Name</b></label>
+            </td>
+            <td colspan="2">
+                <input type="text" placeholder="Enter your Name" required>
+            </td>
+        </tr>
+        <tr>
+            <tr>
+                <td>
+                    <label for=""><b>Degree name</b></label>
+                </td>
+                <td colspan="2">
+                    <select name="Degree name" id="" required>
+                        <option value=""></option>
+                        <option value="">B.E.</option>
+                        <option value="">B.Pharm</option>
+                        <option value="">B.COM</option>
+                        <option value="">MBA</option>
+                    </select>
+                </td>
+            </tr>
+            <td>
+                <label for=""><b>Department</b></label>
+            </td>
+            <td colspan="2">
+                <select name="Department" id="" required>
+                    <option value=""></option>
+                    <option value="">Computer</option>
+                    <option value="">Electrical</option>
+                    <option value="">Mechanical</option>
+                    <option value="">Civil</option>
+                    <option value="">Statistics</option>
+                    <option value="">Pharmacy</option>
+                    <option value="">Marketing</option>
+                    <option value="">Finance</option>
+                    <option value="">Management</option>
+                    <option value="">HR</option>
+                    <option value="">Economics</option>
+                    <option value="">Politics</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""><b>Enrollment No.</b></label>
+            </td>
+            <td>
+                <input type="text" required placeholder="Enter your Enrollment No.">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""><b>Email</b></label>
+            </td>
+            <td colspan="2">
+                <input type="email" placeholder="Enter your Email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""><b>Contact No.</b></label>
+            </td>
+            <td colspan="2">
+                <input type="tel" placeholder="Enter your Contact No." required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""><b>Gender</b></label>
+            </td>
+            <td colspan="2">
+                <label for="m">Male</label>
+                <input type="radio" id="m" name="Gender" required>
+                <label for="f">Female</label>
+                <input type="radio" id="f" name="Gender" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for=""><b>Address</b></label>
+            </td>
+            <td colspan="2">
+                <textarea name="" id="" cols="40" rows="3" placeholder="Please enter Address" required></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3">
+                <input type="submit" value="Submit"> <input type="reset">
+            </td>
+        </tr>
+    </table>
+    </p>
+    <h4>Q6: Create below table using HTML table tags</h4>
+    <p>
+        <h2 align="center">European Roulette</h2>
+        <table border="1" cellspacing="0" cellpadding="10" align="center" width="50%" height="50%" bgcolor="#228b22">
+            <tr align="center">
+                <td rowspan="6"></td>
+                <td bgcolor="#e63e62"><font color="white">3</font></td>
+                <td bgcolor="#841b2d"><font color="white">6</font></td>
+                <td bgcolor="#e63e62"><font color="white">9</font></td>
+                <td bgcolor="#e63e62"><font color="white">12</font></td>
+                <td bgcolor="#841b2d"><font color="white">15</font></td>
+                <td bgcolor="#841b2d"><font color="white">18</font></td>
+                <td bgcolor="#841b2d"><font color="white">21</font></td>
+                <td bgcolor="#841b2d"><font color="white">24</font></td>
+                <td bgcolor="#e63e62"><font color="white">27</font></td>
+                <td bgcolor="#e63e62"><font color="white">30</font></td>
+                <td bgcolor="#841b2d"><font color="white">33</font></td>
+                <td bgcolor="#e63e62"><font color="white">36</font></td>
+                <td><font color="white">2to1</font></td>
+            </tr>
+            <tr align="center">
+                <td bgcolor="#841b2d"><font color="white">2</font></td>
+                <td bgcolor="#e63e62"><font color="white">5</font></td>
+                <td bgcolor="#841b2d"><font color="white">8</font></td>
+                <td bgcolor="#841b2d"><font color="white">11</font></td>
+                <td bgcolor="#e63e62"><font color="white">14</font></td>
+                <td bgcolor="#841b2d"><font color="white">17</font></td>
+                <td bgcolor="#841b2d"><font color="white">20</font></td>
+                <td bgcolor="#e63e62"><font color="white">23</font></td>
+                <td bgcolor="#841b2d"><font color="white">26</font></td>
+                <td bgcolor="#841b2d"><font color="white">29</font></td>
+                <td bgcolor="#e63e62"><font color="white">32</font></td>
+                <td bgcolor="#841b2d"><font color="white">35</font></td>
+                <td><font color="white" align="left">2to1</font></td>
+            </tr>
+            <tr align="center">
+                <td bgcolor="#e63e62"><font color="white">1</font></td>
+                <td bgcolor="#841b2d"><font color="white">4</font></td>
+                <td bgcolor="#e63e62"><font color="white">7</font></td>
+                <td bgcolor="#841b2d"><font color="white">10</font></td>
+                <td bgcolor="#841b2d"><font color="white">13</font></td>
+                <td bgcolor="#e63e62"><font color="white">16</font></td>
+                <td bgcolor="#e63e62"><font color="white">19</font></td>
+                <td bgcolor="#841b2d"><font color="white">22</font></td>
+                <td bgcolor="#e63e62"><font color="white">25</font></td>
+                <td bgcolor="#841b2d"><font color="white">28</font></td>
+                <td bgcolor="#841b2d"><font color="white">31</font></td>
+                <td bgcolor="#e63e62"><font color="white">34</font></td>
+                <td><font color="white" align="left">2to1</font></td>
+            </tr>
+            <tr align="center">
+                <td colspan="4"><font color="white">
+                    1<sup>st</sup>12</font>
+                </td>
+                <td colspan="4"><font color="white">
+                    2<sup>nd</sup>12</font>
+                </td>
+                <td colspan="4"><font color="white">
+                    3<sup>rd</sup>12</font>
+                </td>
+                <td rowspan="2"><font color="white"></font></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><font color="white">1to18</font>
+                </td>
+                <td colspan="2"><font color="white">EVEN</font>
+                </td>
+                <td colspan="2" bgcolor="#e63e62"><font color="white"></font>
+                    
+                </td>
+                <td colspan="2" bgcolor="#841b2d"><font color="white"></font>
+                    
+                </td>
+                <td colspan="2"><font color="white">ODD</font>
+                </td>
+                <td colspan="2"><font color="white">19to36</font>
+                </td>
+            </tr>
+        </table>
+        <h2 align="center">CSS3 Browser Support latest browser versions</h2>
+        <table cellpadding="10" cellspacing="2" border="1" align="center" width="45%" heigh="50%">
+            <tr>
+                <td><b>CSS property</b></td>
+                <td><b>Internet Explorer</b></td>
+                <td><b>Firefox</b></td>
+                <td><b>Chrome</b></td>
+                <td><b>Safari</b></td>
+                <td><b>Opera</b></td>
+            </tr>
+            <tr>
+                <td><b>Border Radius</b></td>
+                <td align="center">YES</td>
+                <td align="center">YES</td>
+                <td align="center">YES</td>
+                <td align="center">YES</td>
+                <td align="center">YES</td>
+            </tr>
+            <tr>
+                <td><b>Box shadow</b></td>
+                <td align="center">YES</td>
+                <td align="center">YES</td>
+                <td align="center">YES</td>
+                <td align="center">YES</td>
+                <td align="center">YES</td>
+            </tr>
+            <tr>
+                <td><b>CSS animations</b></td>
+                <td align="center">NO</td>
+                <td align="center">NO</td>
+                <td align="center">YES</td>
+                <td align="center">YES</td>
+                <td align="center">NO</td>
+            </tr>
+        </table>
+    </p>
+    <h4>Q7: Create Registration form using HTML, CSS</h4>
+    <p>
+        <h2 align="center">Registration form using HTML</h2>
+        <fieldset>
+        <table align="center">
+            <tr>
+                
+                <Form action="About.html" method="" target="_top">
+                    
+                    <td colspan="2">
+                        <Label for=""><b>Surname</b></Label><br>
+                        <input type="text" placeholder="Please enter your Surname" required>
+                    </td>
+                    <td colspan="2">
+                        <label for=""><b>Name</b></label><br>
+                        <input type="text" placeholder="Please enter your name" required>
+                    </td>
+                    <tr>
+                        <td colspan="2">
+                            <label for=""><b>Email</b></label><br>
+                            <input type="email" placeholder="Please enter Email" required>
+                        </td>
+                        <td colspan="2">
+                            <label for=""><b>Contact No.</b></label><br>
+                            <input type="tel" placeholder="Please enter Contact no." required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h3>Select your Gender</h3>
+                            <label for="m">Male</label>
+                            <input type="radio" name="m" id="m" required>
+                            <label for="f">Female</label>
+                            <input type="radio" name="m" id="f" required>
+                        </td>
+                        <td colspan="2">
+                            <h3>Select your Hobbies</h3>
+                            <label for="mus">Music</label>
+                            <input type="checkbox"  id="mus">
+                            <label for="cric">Cricket</label>
+                            <input type="checkbox" id="cric">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <label for=""><b>Address</b></label><br>
+                        <textarea name="" id="" cols="50" rows="8" placeholder="Please enter Address" required></textarea>
+                    </td>
+                    </tr>
+                        <td align="center" colspan="4">
+                            <input type="Reset">  <input type="submit" value="Submit">
+                        </td>
+                    </tr>
+                </Form>
+            </tr>
+        </table>
+    </fieldset>
+    </p>
+    <h4>Q8: In how many ways can a CSS be integrated as a web page?</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere architecto perferendis dignissimos dolorem minima vel quisquam fugiat numquam ducimus. Nesciunt similique delectus nam voluptatum ullam!</p>
+    <h4>Q9: Create simple three pages using External CSS, Internal CSS, and Inline
+        CSS.</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere architecto perferendis dignissimos dolorem minima vel quisquam fugiat numquam ducimus. Nesciunt similique delectus nam voluptatum ullam!</p>
+    <h4>Q10: Create below page using HTML CSS</h4>
+    <p>
+        <table width="100%">
+            <tr align="center">
+                <td bgcolor="#00bfff">
+                    <h2><b><font color="red">Individual Registration</font></b></h2>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="white"></td>
+            </tr>
+        </table>
+        <form action="About.html" method="" target="_top">
+        <table bgcolor="#e0ffff">
+            <tr>
+            </tr>
+            <tr>
+                <td colspan="6" align="left"><b><font color="red">User Particulars</font></b></td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for=""><b><font color="#191970">Login Id</font></b></label>
+                </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for=""><b><font color="#191970">Password</font></b></label>
+                </td>
+                <td>
+                    <input type="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for=""><b><font color="#191970">Confirm Password</font></b></label>
+                </td>
+                <td>
+                    <input type="password" required>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td colspan="6" align="left"><b><font color="red">Personal Particulars</font></b></td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td align="right"><label for=""><b><font color="#191970">Salutation</font></b></label>
+                </td>
+                <td>
+                    <select name="Salutation" id="" required>
+                        <option value=""></option>
+                        <option value="">Mr.</option>
+                        <option value="">Mrs.</option>
+                    </select>
+                </td>
+                <td align="right">
+                    <label for=""><b><font color="#191970">First Name</font></b></label>
+                </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for=""><b><font color="#191970">Middle name</font></b></label>
+                </td>
+                <td>
+                    <input type="text" required>
+                </td>
+                <td align="right">
+                    <label for=""><b><font color="#191970">Last Name</font></b></label>
+                </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><label for=""><b><font color="#191970">Residential Status</font></b></label>
+                </td>
+                <td>
+                    <select name="Residential Status" id="" required>
+                        <option value=""></option>
+                        <option value="">Permanent</option>
+                        <option value="">Temporary</option>
+                    </select>
+                </td>
+                <td align="right"><label for=""><b><font color="#191970">Country</font></b></label>
+                </td>
+                <td>
+                    <select name="Country" id="" required>
+                        <option value=""></option>
+                        <option value="">India</option>
+                        <option value="">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for=""><b><font color="#191970">Email Id</font></b></label>
+                </td>
+                <td>
+                    <input type="email" required>
+                </td>
+                <td align="right">
+                    <label for=""><b><font color="#191970">Mobile No.</font></b></label>
+                </td>
+                <td>
+                    <input type="tel" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" align="left"><b><font color="red">Account Particulars</font></b></td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for=""><b><font color="#191970">15 Digit Account No.</font></b></label>
+                </td>
+                <td>
+                    <input type="number" required>
+                </td>
+                <td align="right">
+                    <Label for=""><b><font color="#191970">Nick name</font></b></Label>
+                </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for=""><b><font color="#191970">Fund Transfer</font></b></label>
+                </td>
+                <td>
+                    <select name="Fund Transfer" id="" required>
+                        <option value=""></option>
+                        <option value="">IMPS</option>
+                        <option value="">NEFT</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" align="left"><b><font color="red">Declaration</font></b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6"><b><font color="#191970">
+                    <p>I have read, understood and hereby agree to the terms and conditions in respect of all products and channels.<br>
+                    I understand that any changes in the terms and conditions applicable to this relatioship would be made available to me on any request at any IOB branches. I confirm that all accounts under this login name are operated singly and in case of joint account operatedby either or survivor / anyone or survivor(s) under his/he joint name respectively. I do hereby declare that information furnished in this form is true to the best of my knowledge and belief</p>
+                </font></b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" align="center">
+                    <input type="submit" id="">
+                    <input type="Reset" id="">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </p>
+    <h4>Q11: Create link-pseudo classes using external css, to format links on the pages.</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere architecto perferendis dignissimos dolorem minima vel quisquam fugiat numquam ducimus. Nesciunt similique delectus nam voluptatum ullam!</p>
+    <h4>Q12: Create a dynamic pseudo class using HTML, CSS</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere architecto perferendis dignissimos dolorem minima vel quisquam fugiat numquam ducimus. Nesciunt similique delectus nam voluptatum ullam!</p>
+</body>
+</html>
